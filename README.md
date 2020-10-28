@@ -10,7 +10,7 @@ The application that can be used to write, save, and delete notes so that one ca
 
 ## Usage
 
-This application uses an express backend and save and retrieve note data from a JSON file.
+This application uses an express backend to save and retrieve note data from a JSON file.
 
 * HTML routes:
 
