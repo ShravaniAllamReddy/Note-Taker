@@ -31,8 +31,10 @@ This application uses an express backend and save and retrieve note data from a 
 
 ## Sources Referred 
 
-http://expressjs.com/en/starter/static-files.html
-https://flaviocopes.com/how-to-remove-item-from-array/
+* Serving static files in Express:http://expressjs.com/en/starter/static-files.html
+
+* How to remove an element from an Array in JavaScript: https://flaviocopes.com/how-to-remove-item-from-array/
+
 
 ## URL of Deployed Application
 
