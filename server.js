@@ -1,5 +1,4 @@
 const express = require("express");
-const fs = require("fs");
 const path = require("path");
 const app = express();
 var PORT = process.env.PORT || 3001;
@@ -11,12 +10,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/', express.static(path.join(__dirname, 'public')))
 app.use(express.json());
 
-
-//Notes
-const note = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
-
 //The below points our server to a series of "route" files.
-require("./routes/apiRoutes")(app, note);
+require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
 // Starts the server to begin listening
